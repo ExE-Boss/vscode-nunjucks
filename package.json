@@ -2,7 +2,7 @@
 	"name": "vscode-nunjucks",
 	"displayName": "Nunjucks for VSCode",
 	"description": "Adds language support for Nunjucks",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"author": {
 		"name": "ExE Boss",
 		"url": "https://ExE-Boss.tech"
