@@ -1,0 +1,43 @@
+{
+	"name": "vscode-nunjucks",
+	"displayName": "Nunjucks for VSCode",
+	"description": "Adds language support for Nunjucks",
+	"version": "0.0.0",
+	"author": {
+		"name": "ExE Boss",
+		"url": "https://ExE-Boss.tech"
+	},
+	"license": "GPL-3.0",
+	"private": true,
+
+	"homepage": "https://github.com/ExE-Boss/vscode-nunjucks#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExE-Boss/vscode-nunjucks.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ExE-Boss/vscode-nunjucks/issues"
+	},
+
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"publisher": "exe-boss",
+
+	"contributes": {
+		"languages": [{
+			"id": "html-nunjucks",
+			"aliases": ["HTML (Nunjucks)", "html-nunjucks"],
+			"extensions": [".nunjucks", ".njk"],
+			"configuration": "./nunjucks.language-configuration.json"
+		}],
+		"grammars": [{
+			"language": "html-nunjucks",
+			"scopeName": "text.html.nunjucks",
+			"path": "./syntaxes/html-nunjucks.tmLanguage.json"
+		}]
+	}
+}
